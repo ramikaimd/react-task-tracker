@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+
+.title{
+  font-family: 'Lexend', sans-serif;
+}
+
+th{
+  font-family: 'Lexend', sans-serif;
+  padding-right: 50px;
+}
+
+td{
+  font-family: 'Lexend', sans-serif;
+  padding-top: 10px;
+  padding-right: 50px;
+  width: auto;
+}
+
+td > h4 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Lexend', sans-serif;
+}
+
+.task-title{
+  border: 1px solid rgb(7, 172, 7);
+  font-family: 'Lexend', sans-serif;
+  height: 50px;
+  border-radius: 2%;
+}
+
+.danger{
+  background-color: #fff;
+  border: 1px solid rgb(158, 1, 1);
+  color: rgb(158, 1, 1);
+  height: 50px;
+  width: 75px;
+}
+
+.success{
+  background-color: #fff;
+  border: 1px solid rgb(0, 143, 76);
+  color: rgb(0, 143, 76);
+}
+
+.danger:hover{
+  background-color: rgb(158, 1, 1);
+  color: #fff;
+}
+
+
+.success:hover{
+  background-color: rgb(0, 143, 76);
+  color: #fff;
+}
+
+
+.button{
+  height: 50px;
+  width: 125px;
+  border-radius: 7px;
+  margin-top: 45px;
+  margin-right: 20px;
+  font-family: 'Lexend', sans-serif;
+}
+
+.add-task-button{
+  background-color: rgb(0, 143, 76);
+  border: rgb(0, 143, 76);
+  color: #fff;
+  border-radius: 7px;
+  margin-top: 1%;
+}
